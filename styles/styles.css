@@ -1,0 +1,83 @@
+
+/*
+Black text       #222831
+Body Black       #393E46
+Yellow Highlight #FFD369
+White Text       #EEEEEE
+*/
+.logo {
+    width: 25%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Gasoek One', sans-serif;
+}
+
+.nav-link{
+    font-size: 30px;
+}
+
+.navbar {
+    box-shadow: 0px 5px 15px #212429;
+}
+
+footer {
+    box-shadow: 0px -5px 15px #212429;
+}
+
+.accent-color {
+    background-color: #FFD369;
+}
+
+.body-color{
+    background-color: #393E46;
+}
+
+.active {
+    color: #393E46 !important;
+}
+
+.nav-item > a:hover, .nav-item > a:focus {
+    color: #393E46 !important;
+}
+
+.white-text * {
+    color: #EEEEEE !important;
+}
+
+.black-text * {
+    color: #222831 !important
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.br-border {
+    border-bottom: 5px solid #FFD369;
+    border-right: 5px solid #FFD369;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.l-border {
+    border-left: 5px solid #FFD369;
+    padding-left: 10px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main-logo {
+    font-family: 'Gasoek One', sans-serif;
+    color: #FFD369;
+    font-size: 200px;
+    line-height: 170px;
+}
+
+.sub-logo{
+    color: #EEEEEE;
+    font-size: 50px;
+}
