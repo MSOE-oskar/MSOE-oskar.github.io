@@ -81,3 +81,24 @@ html, body {
     color: #EEEEEE;
     font-size: 50px;
 }
+
+.carousel-control-next {
+    right: -10%;
+}
+.carousel-control-prev {
+    left: -10%;
+}
+.carousel-indicators{
+    bottom: -3%;
+}
+
+.animate__delayFirst{
+    animation-delay: 0.3s;
+}
+
+.animate__delaySecond{
+    animation-delay: 0.5s;
+}
+.animate__delayThird{
+    animation-delay: 0.7s;
+}
